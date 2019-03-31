@@ -1,0 +1,15 @@
+@import "skins";
+
+@each $icon in $default {
+  .wh-icon.default.#{$icon} {
+    background-size: contain;
+    background-image: url("~@/assets/icons/skins/default/#{$icon}.png");
+  }
+}
+
+@each $icon in $warhammer2 {
+  .wh-icon.warhammer2.#{$icon} {
+    background-size: contain;
+    background-image: url("~@/assets/icons/skins/warhammer2/#{$icon}.png");
+  }
+}

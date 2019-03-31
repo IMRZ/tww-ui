@@ -1,0 +1,9 @@
+@import "climates";
+
+@each $climate in $climates {
+  .wh-icon.climate.#{$climate} {
+    width: 26px;
+    height: 26px;
+    background-image: url("~@/assets/icons/climates/#{$climate}.png");
+  }
+}

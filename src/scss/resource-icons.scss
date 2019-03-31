@@ -1,0 +1,10 @@
+@import "resources";
+
+@each $resource in $resources {
+  .wh-icon.resource.#{$resource} {
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-image: url("~@/assets/icons/resources/#{$resource}.png");
+  }
+}
