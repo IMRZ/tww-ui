@@ -4,6 +4,7 @@
   .wh-icon.climate.#{$climate} {
     width: 26px;
     height: 26px;
+    background-size: contain;
     background-image: url("~@/assets/icons/climates/#{$climate}.png");
   }
 }
