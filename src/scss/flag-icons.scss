@@ -4,6 +4,7 @@
   .wh-icon.small.flag.#{$flag} {
     width: 24px;
     height: 24px;
+    background-size: contain;
     background-image: url("~@/assets/icons/flags/#{$flag}/mon_24.png");
   }
 
@@ -11,6 +12,7 @@
   .wh-icon.medium.flag.#{$flag} {
     width: 64px;
     height: 64px;
+    background-size: contain;
     background-image: url("~@/assets/icons/flags/#{$flag}/mon_64.png");
   }
 }

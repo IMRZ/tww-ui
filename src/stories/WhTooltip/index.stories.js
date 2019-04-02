@@ -4,8 +4,11 @@ import WhTooltip from "@/components/WhTooltip.vue";
 import WhTooltipHeader from "@/components/WhTooltipHeader.vue";
 import WhTooltipBody from "@/components/WhTooltipBody.vue";
 import WhIcon from "@/components/WhIcon.vue";
+
 import TooltipRegion1 from "./TooltipRegion1";
 import TooltipRegion2 from "./TooltipRegion2";
+
+import TooltipRegionOwner from "./TooltipRegionOwner";
 
 storiesOf("WhTooltip", module)
   .add("test", () => ({
@@ -49,4 +52,8 @@ storiesOf("WhTooltip", module)
   .add("region variant 2", () => ({
     components: { TooltipRegion2 },
     template: `<TooltipRegion2 />`
+  }))
+  .add("region owner", () => ({
+    components: { TooltipRegionOwner },
+    template: `<TooltipRegionOwner style="display: inline-block;" />`
   }));
