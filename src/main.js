@@ -1,4 +1,5 @@
 
+import WhBarTop from "@/components/WhBarTop";
 import WhButtonFrame from "@/components/WhButtonFrame";
 import WhCheckbox from "@/components/WhCheckbox";
 import WhIcon from "@/components/WhIcon";
@@ -10,6 +11,7 @@ import WhTooltipBody from "@/components/WhTooltipBody";
 import WhTooltipHeader from "@/components/WhTooltipHeader";
 
 const components = {
+  WhBarTop,
   WhButtonFrame,
   WhCheckbox,
   WhIcon,
